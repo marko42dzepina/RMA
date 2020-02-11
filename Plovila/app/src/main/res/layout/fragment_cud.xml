@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/labelaNaziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNaziv" />
+
+        <EditText
+            android:id="@+id/naziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/tip_plovila"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/tip_plovila"
+            />
+
+        <TextView
+            android:id="@+id/labelaGodina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaGodina" />
+
+        <EditText
+            android:id="@+id/godina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:inputType="date"/>
+        <TextView
+            android:id="@+id/labelaOpis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaOpis" />
+
+        <EditText
+            android:id="@+id/opis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/novoPlovilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNovi" />
+
+        <Button
+            android:id="@+id/uslikaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaUslikaj" />
+
+        <Button
+            android:id="@+id/promjenaPlovila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaPromjeni" />
+
+        <Button
+        android:id="@+id/obrisiPlovilo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/labelaObrisi" />
+
+        <Button
+            android:id="@+id/nazad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNazad" />
+
+        <ImageView
+            android:id="@+id/slika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/labelaSlika"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

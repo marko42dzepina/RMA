@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Plovila</string>
+    <string name="labelaSifra">Šifra</string>
+    <string name="labelaNaziv">Naziv</string>
+    <string name="labelaTip">Tip</string>
+    <string name="labelaNazad">Nazad</string>
+    <string name="labelaSlika">Slika plovila</string>
+    <string name="labelaNovi">Kreiraj novo plovilo</string>
+    <string name="labelaPromjeni">Promjeni plovilo</string>
+    <string name="labelaObrisi">Obriši plovilo</string>
+    <string name="labelaUslikaj">Uslikaj</string>
+    <string name="labelaGodina">Godina gradnje</string>
+    <string name="labelaOpis">Opis</string>
+</resources>

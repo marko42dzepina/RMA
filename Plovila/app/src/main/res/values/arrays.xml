@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tip_plovila">
+        <item>Motorni brod</item>
+        <item>Jedrilica</item>
+        <item>Katamaran</item>
+        <item>Gliser</item>
+    </string-array>
+</resources>
